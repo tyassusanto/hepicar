@@ -8,9 +8,11 @@ app.use(express.json());
 
 
 const userRoute = require('./src/routes/user')
+const serviceRoute = require('./src/routes/services')
 
 
 app.use('/user', userRoute)
+app.use('/services', serviceRoute)
 
 const PORT = process.env.PORT;
 

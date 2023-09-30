@@ -1,4 +1,3 @@
-require('dotenv').config()
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { EyeOutlined, EyeInvisibleOutlined } from '@ant-design/icons'
